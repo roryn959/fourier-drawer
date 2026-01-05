@@ -24,7 +24,7 @@ void VectorGenerator::GenerateVectors(VectorList& vector_list) {
 
         float amplitude = sqrt(real_part*real_part + imaginary_part * imaginary_part);
         float phase = atan2(imaginary_part, real_part);
-        vector_list.push_back(Vector{ amplitude, (float) n / 100.0f, phase });
+        vector_list.push_back(Vector{ amplitude, (float) n / 35.0f, phase });
     }
 
     vector_list.sort_by_amp();

@@ -21,7 +21,7 @@ constexpr float VERTICAL_NOTCH_HALFLENGTH = (GRAPH_H / (2 * 40));
 constexpr float WIN_TO_GRAPH_W_FACTOR = WINDOW_W / GRAPH_W; 
 constexpr float WIN_TO_GRAPH_H_FACTOR = WINDOW_H / GRAPH_H;
 
-#define TRAIL_TIME 8
+#define TRAIL_TIME 30
 #define TRAIL_INTERVAL 0.005
 
 constexpr size_t TRAIL_LENGTH = TRAIL_TIME / TRAIL_INTERVAL;
